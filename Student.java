@@ -47,7 +47,8 @@ class Student{
         this.marks = marks;
     }
 	
-	public void display(){
-		System.out.println("Name: "+name+"/nPRN: "+prn+"/nDate of Birth: "+dob+"/nMarks: "+marks);
+	@Override
+	public String toString() {
+    return "Name: " + name + ", PRN: " + prn + ", DoB: " + dob + ", Marks: " + marks;
 	}
 }
