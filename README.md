@@ -1,7 +1,7 @@
 # Student_Operations
 Java assignment to understand the concepts of classes, array of objects, instance members, and constructors.
 
-## Variable List
+## List of Variables
 
 | Name     | Data Type         | Use                         |
 |----------|------------------|-----------------------------|
@@ -11,7 +11,7 @@ Java assignment to understand the concepts of classes, array of objects, instanc
 | `marks`  | `double`         | Stores the student's marks |
 | `students` | `ArrayList<Student>` | Stores the list of students |
 
-## Function List
+## List of Functions
 
 | Name                | Return Type  | Use                                  |
 |---------------------|-------------|--------------------------------------|
