@@ -14,6 +14,7 @@ class Student{
     }
 	
 	// Getters and Setters
+	
 	public String getName(){
 		return(name);
 	}
@@ -33,20 +34,20 @@ class Student{
 	public String getDob() {
         return dob;
     }
-
-    public void setDob(String dob) {
+	
+	public void setDob(String dob) {
         this.dob = dob;
     }
-
-    public double getMarks() {
+	
+	public double getMarks() {
         return marks;
     }
-
-    public void setMarks(double marks) {
+	
+	public void setMarks(double marks) {
         this.marks = marks;
     }
-
+	
 	public void display(){
-		System.out.println("Name: "+name+"/nPRN: "+prn);
+		System.out.println("Name: "+name+"/nPRN: "+prn+"/nDate of Birth: "+dob+"/nMarks: "+marks);
 	}
 }
